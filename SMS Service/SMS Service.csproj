@@ -49,12 +49,15 @@
     <Compile Include="Exceptions\ErrorParamsException.cs" />
     <Compile Include="Models\NumbersStatusAndCostHubFree.cs" />
     <Compile Include="Models\Price.cs" />
+    <Compile Include="Models\QiwiRequisites.cs" />
     <Compile Include="Models\Response.cs" />
     <Compile Include="Models\NumberStatus.cs" />
     <Compile Include="Other\Converts.cs" />
+    <Compile Include="Other\Expansion.cs" />
     <Compile Include="Other\Json.cs" />
     <Compile Include="Other\Request.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\SmsActivate.cs" />
     <Compile Include="Services\SmsHub.cs" />
   </ItemGroup>
   <ItemGroup />

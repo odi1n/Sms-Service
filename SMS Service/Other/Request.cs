@@ -19,23 +19,16 @@ namespace SMS_Service.Other
             return await ToText(Response);
         }
 
-        internal async Task<string> GetAsync(string link, Dictionary<string, object> requestContent)
-        {
-            var Response = await _httpClient.GetAsync(link +"?" + Converts.StringToDictionary(requestContent));
-            return await ToText(Response);
-        }
-
-        internal async Task<string> PostAsync(string link, KeyValuePair<string, string> requestContent)
-        {
-            HttpContent content = new FormUrlEncodedContent(new[] { requestContent });
-            var Response = await _httpClient.PostAsync(link, content);
-            return await ToText(Response);
-        }
-
         internal async Task<string> PostAsync(string link, KeyValuePair<string, string>[] requestContent)
         {
             HttpContent content = new FormUrlEncodedContent(requestContent);
             var Response = await _httpClient.PostAsync(link, content);
+            return await ToText(Response);
+        }
+
+        internal async Task<string> GetAsync(string link, Dictionary<string, object> requestContent)
+        {
+            var Response = await _httpClient.GetAsync(link +"?" + Converts.StringToDictionary(requestContent));
             return await ToText(Response);
         }
 

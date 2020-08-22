@@ -42,8 +42,8 @@ namespace SMS_Service
             {
                 ["api_key"]=ApiKey,
                 ["action"] = "getNumbersStatus",
-                ["country"] = country != null ? country.Value.ToString() : "",
-                ["operator"] = opertator != null ? opertator: "",
+                ["country"] = country.GetValue(),
+                ["operator"] = opertator.GetValue(),
             });
             return Converts.JsonDeserializ<NumberStatus>(data);
         }
@@ -77,9 +77,9 @@ namespace SMS_Service
             {
                 ["api_key"] = ApiKey,
                 ["action"] = "getNumber",
-                ["service"] = service != null ? service : "",
-                ["operator"] = operators != null ? operators : "",
-                ["country"] = country != null ? country.Value.ToString() : "",
+                ["service"] = service.GetValue(),
+                ["operator"] = operators.GetValue(),
+                ["country"] = country.GetValue(),
             });
 
             CheckError(data);
@@ -103,7 +103,7 @@ namespace SMS_Service
             });
 
             CheckError(data);
-            return ConvertEnum(data);
+            return data.ToInfo();
         }
 
         /// <summary>
@@ -159,8 +159,8 @@ namespace SMS_Service
             {
                 ["api_key"] = ApiKey,
                 ["action"] = "getPrices",
-                ["service"] = service != null ? service : "",
-                ["country"] = country != null ? country.Value.ToString() : "",
+                ["service"] = service.GetValue(),
+                ["country"] = country.GetValue(),
             });
 
             return Converts.JsonDeserializ<Dictionary<int, Price>>(data);
@@ -177,7 +177,7 @@ namespace SMS_Service
             {
                 ["api_key"] = ApiKey,
                 ["action"] = "getNumbersStatusAndCostHubFree",
-                ["country"] = country != null ? country.Value.ToString() : "",
+                ["country"] = country.GetValue(),
             });
 
             return Converts.JsonDeserializ<NumbersStatusAndCostHubFree>(data);
@@ -186,7 +186,7 @@ namespace SMS_Service
         private Response GetResponse(string data)
         {
             var split = data.Split(':');
-            var info = ConvertEnum(data);
+            var info = split[0].ToInfo();
 
             if (info == Info.STATUS_WAIT_RETRY)
                 return new Response(){Info = info,LastCode = split[1]};
@@ -203,13 +203,6 @@ namespace SMS_Service
             };
         }
 
-        private Info ConvertEnum(string data)
-        {
-            Info info;
-            var check = Enum.TryParse<Info>(data, out info);
-            return info;
-        }
-
         private void CheckError(string data)
         {
             if (data.Contains("BAD") || data.Contains("ERROR") || data.Contains("NO_ACTIVATION"))
@@ -217,7 +210,7 @@ namespace SMS_Service
                 if (_infoException)
                     throw new ErrorParamsException(data);
                 else
-                    Info = ConvertEnum(data);
+                    Info = data.ToInfo();
             }
         }
     }

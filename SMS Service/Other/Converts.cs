@@ -41,8 +41,8 @@ namespace Sms_Service
         /// <returns></returns>
         internal static string JsonSerializer(object Serial)
         {
-            var Settings = new Newtonsoft.Json.JsonSerializerSettings();
-            Settings.DefaultValueHandling = Newtonsoft.Json.DefaultValueHandling.Populate;
+            var Settings = new JsonSerializerSettings();
+            Settings.DefaultValueHandling = DefaultValueHandling.Populate;
             return JsonConvert.SerializeObject(Serial, Settings);
         }
 

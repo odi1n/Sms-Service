@@ -18,8 +18,8 @@ namespace SMS_Test
 
         public static async void Work()
         {
-            SmsHub smsHub = new SmsHub("11140Uc7a91b48a6a9c97c02638b003f5cc6d0");
-            var number = await smsHub.GetNumbersStatusAndCostHubFreeAsync();
+            SmsActivate smsHub = new SmsActivate("11140Uc7a91b48a6a9c97c02638b003f5cc6d0");
+            var number = await smsHub.GetQiwiRequisites();
         }
     }
 }
