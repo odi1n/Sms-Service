@@ -14,6 +14,9 @@
 |GetPrices|+|||
 |GetNumbersStatusAndCostHubFreeAsync|+|||
 
+#### SmsHub.org
+- GetNumbersStatusAndCostHubFreeAsync - метод отснифен на сайте. Лучше использовать его по сравнению с "GetPrices" удобен в плане детальной информации о номерах.
+
 #### Информация
 `+` - Имеется в библиотеке
 
