@@ -4,22 +4,22 @@
 
 Библиотека которая объединяет в себе все сервисы для работы с смс-активацией
 
-|Метод/Сервис| SmsHub.org|Sms-Activate.ru|5sim.net|
-|---|:---:|:---:|:---:|
-|GetNumbersStatus|+|+||
-|GetBalance|+|+||
-|GetNumber|+|+||
-|GetMultiServiceNumber||+||
-|SetStatus|+|+||
-|GetStatus|+|+||
-|GetPrices|+|+||
-|GetNumbersStatusAndCostHubFree|+|||
-|GetQiwiRequisites|| + ||
-|GetAdditionalService|| + ||
-|GetRentServicesAndCountries|| * ||
-|GetRentNumber|| * ||
-|GetRentStatus|| * ||
-|SetRentStatus|| * ||
+|Метод/Сервис| SmsHub.org|Sms-Activate.ru|5sim.net|Onlinesim.ru|Simsms.org|Sms-Reg.com|
+|---|:---:|:---:|:---:|:---:|:---:|:---:|
+|GetNumbersStatus|+|+|||||
+|GetBalance|+|+|||||
+|GetNumber|+|+|||||
+|GetMultiServiceNumber||+|||||
+|SetStatus|+|+|||||
+|GetStatus|+|+|||||
+|GetPrices|+|+|||||
+|GetNumbersStatusAndCostHubFree|+||||||
+|GetQiwiRequisites|| + |||||
+|GetAdditionalService|| + |||||
+|GetRentServicesAndCountries|| * |||||
+|GetRentNumber|| * |||||
+|GetRentStatus|| * |||||
+|SetRentStatus|| * |||||
 
 ### Сервисы
 #### SmsHub.org
