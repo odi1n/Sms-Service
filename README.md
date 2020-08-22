@@ -14,8 +14,8 @@
 |GetStatus|+|+||
 |GetPrices|+|+||
 |GetNumbersStatusAndCostHubFree|+|||
-|GetQiwiRequisites|| * ||
-|GetAdditionalService|| * ||
+|GetQiwiRequisites|| + ||
+|GetAdditionalService|| + ||
 |GetRentServicesAndCountries|| * ||
 |GetRentNumber|| * ||
 |GetRentStatus|| * ||
