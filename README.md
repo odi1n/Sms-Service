@@ -6,13 +6,20 @@
 
 |Метод/Сервис| SmsHub.org|Sms-Activate.ru|5sim.net|
 |---|:---:|:---:|:---:|
-|GetNumbersStatus|+|||
-|GetBalance|+|||
-|GetNumber|+|||
-|SetStatus|+|||
-|GetStatus|+|||
-|GetPrices|+|||
+|GetNumbersStatus|+|+||
+|GetBalance|+|+||
+|GetNumber|+|+||
+|GetMultiServiceNumber||+||
+|SetStatus|+|+||
+|GetStatus|+|+||
+|GetPrices|+|+||
 |GetNumbersStatusAndCostHubFree|+|||
+|GetQiwiRequisites|| * ||
+|GetAdditionalService|| * ||
+|GetRentServicesAndCountries|| * ||
+|GetRentNumber|| * ||
+|GetRentStatus|| * ||
+|SetRentStatus|| * ||
 
 ### Сервисы
 #### SmsHub.org
