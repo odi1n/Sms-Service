@@ -12,7 +12,7 @@
 |SetStatus|+|||
 |GetStatus|+|||
 |GetPrices|+|||
-|GetNumbersStatusAndCostHubFreeAsync|+|||
+|GetNumbersStatusAndCostHubFree|+|||
 
 ### Сервисы
 #### SmsHub.org
