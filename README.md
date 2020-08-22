@@ -6,14 +6,29 @@
 
 |Метод/Сервис| SmsHub.org|Sms-Activate.ru|5sim.net|
 |---|:---:|:---:|:---:|
-|getNumbersStatus||||
-|getBalance||||
-|getNumber||||
-|setStatus||||
-|getStatus||||
-|getPrices||||
+|GetNumbersStatus|+|+||
+|GetBalance|+|+||
+|GetNumber|+|+||
+|GetMultiServiceNumber||+||
+|SetStatus|+|+||
+|GetStatus|+|+||
+|GetPrices|+|+||
+|GetNumbersStatusAndCostHubFree|+|||
+|GetQiwiRequisites|| + ||
+|GetAdditionalService|| + ||
+|GetRentServicesAndCountries|| * ||
+|GetRentNumber|| * ||
+|GetRentStatus|| * ||
+|SetRentStatus|| * ||
 
-#### Информация
+### Сервисы
+#### SmsHub.org
+- GetNumbersStatusAndCostHubFreeAsync - метод отснифен на сайте. Лучше использовать его по сравнению с "GetPrices" удобен в плане детальной информации о номерах.
+
+#### Другое 
+- CheckStatusAsync - можно использовать для получения сразу уже готово результата. Избавляет нужды постоянно вручную проверять "GetStatus".
+
+### Информация
 `+` - Имеется в библиотеке
 
 `*` - В планах добавить
