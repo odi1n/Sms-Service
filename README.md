@@ -6,12 +6,13 @@
 
 |Метод/Сервис| SmsHub.org|Sms-Activate.ru|5sim.net|
 |---|:---:|:---:|:---:|
-|getNumbersStatus||||
-|getBalance||||
-|getNumber||||
-|setStatus||||
-|getStatus||||
-|getPrices||||
+|GetNumbersStatus|+|||
+|GetBalance|+|||
+|GetNumber|+|||
+|SetStatus|+|||
+|GetStatus|+|||
+|GetPrices|+|||
+|GetNumbersStatusAndCostHubFreeAsync|+|||
 
 #### Информация
 `+` - Имеется в библиотеке
