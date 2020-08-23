@@ -32,3 +32,22 @@
 `+` - Имеется в библиотеке
 
 `*` - В планах добавить
+
+### В планах добавить сервисы:
+* sms-activate.ru
+* 5sim.net
+* smshub.org
+* SMS-REG.com
+* SimSms.org
+* onlinesim.ru
+1. Smspva.com
+2. virtualsms.ru
+3. getsmscode.com
+4. sms-acktiwator.ru
+5. SMS-AREA.org
+6. GetSms.online
+7. vak-sms.com
+8. cheapsms.ru
+9. smska.net
+10. sms.ski
+11. Give-SMS.com
