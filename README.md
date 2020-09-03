@@ -4,7 +4,7 @@
 
 Библиотека которая объединяет в себе все сервисы для работы с смс-активацией
 
-|Метод/Сервис| SmsHub.org|Sms-Activate.ru|5sim.net|Onlinesim.ru|Simsms.org|Sms-Reg.com|
+|Метод/Сервис| SmsHub.org|Sms-Activate.ru|||||
 |---|:---:|:---:|:---:|:---:|:---:|:---:|
 |GetNumbersStatus|+|+|||||
 |GetBalance|+|+|||||
@@ -34,21 +34,25 @@
 `*` - В планах добавить
 
 ### В планах добавить сервисы:
-* sms-activate.ru
-* 5sim.net
 * smshub.org
-* SMS-REG.com
-* SimSms.org
+* sms-activate.ru
+* sms-acktiwator.ru
+* smssms.org
+* GetSms.online
 * onlinesim.ru
-1. Smspva.com
-2. virtualsms.ru
-3. getsmscode.com
-4. sms-acktiwator.ru
-5. SMS-AREA.org
-6. GetSms.online
-7. vak-sms.com
-8. cheapsms.ru
-9. smska.net
-10. sms.ski
-11. Give-SMS.com
-12. SMS-Online.pro
+* 5sim.net
+* vak-sms.com
+
+* cheapsms.ru
+* smska.net
+* StuffSms
+* sms.ski
+
+1. SMS-REG.com
+2. SimSms.org
+3. Smspva.com
+4. virtualsms.ru
+5. getsmscode.com
+6. SMS-AREA.org
+7. Give-SMS.com
+8. SMS-Online.pro
