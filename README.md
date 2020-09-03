@@ -34,6 +34,7 @@
 `*` - В планах добавить
 
 ### В планах добавить сервисы:
+С выбором номера страны
 * smshub.org
 * sms-activate.ru
 * sms-acktiwator.ru
@@ -43,6 +44,7 @@
 * 5sim.net
 * vak-sms.com
 
+Без выбора номера страны
 * cheapsms.ru
 * smska.net
 * StuffSms
