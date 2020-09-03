@@ -44,17 +44,16 @@
 * 5sim.net
 * vak-sms.com
 
+* SMS-REG.com
+* SimSms.org
+* Smspva.com
+
 Без выбора номера страны
 * cheapsms.ru
 * smska.net
 * StuffSms
 * sms.ski
-
-1. SMS-REG.com
-2. SimSms.org
-3. Smspva.com
-4. virtualsms.ru
-5. getsmscode.com
-6. SMS-AREA.org
-7. Give-SMS.com
-8. SMS-Online.pro
+* virtualsms.ru
+* SMS-AREA.org
+* Give-SMS.com
+* SMS-Online.pro
