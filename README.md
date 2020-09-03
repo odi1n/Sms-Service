@@ -51,3 +51,4 @@
 9. smska.net
 10. sms.ski
 11. Give-SMS.com
+12. SMS-Online.pro
